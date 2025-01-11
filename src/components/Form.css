@@ -1,20 +1,20 @@
 body {
-  background: radial-gradient(circle, rgba(179,179,179,1) 9%, rgba(0,0,0,1) 93%);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(255,150,150,1) 50%, rgba(252,176,69,1) 100%);
 }
 
 input[type="text"]::placeholder,
   input[type="password"]::placeholder,
   input[type="email"]::placeholder,
   textarea::placeholder {
-    color: rgba(255, 255, 255, 0.7) !important; /* Placeholder color (semi-transparent white) */
+    color: rgba(255, 255, 255, 0.7) !important; 
   }
 
 select option {
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-  color: white !important;                        /* Text color */
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white !important;                     
 }
 select option[value=""][disabled] {
-  color: rgba(255, 255, 255, 0.7) !important; /* Semi-transparent white for the placeholder */
+  color: rgba(255, 255, 255, 0.7) !important; 
 }
 
 h1{

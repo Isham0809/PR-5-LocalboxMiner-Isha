@@ -100,7 +100,7 @@ function Form() {
                             <input
                                 type="text"
                                 placeholder="Enter Username"
-                                className="form-control bg-transparent text-white shadow"
+                                className="form-control bg-transparent text-white fs-5 shadow"
                                 id="exampleInputUsername1"
                                 name="username"
                                 value={user.username || ""}
@@ -118,7 +118,7 @@ function Form() {
                             <input
                                 type="email"
                                 placeholder="Enter Email"
-                                className="form-control bg-transparent text-white shadow"
+                                className="form-control bg-transparent text-white fs-5 shadow"
                                 id="exampleInputEmail1"
                                 name="email"
                                 value={user.email || ""}
@@ -135,7 +135,7 @@ function Form() {
                             <input
                                 type="password"
                                 placeholder="Enter Password"
-                                className="form-control bg-transparent text-white shadow"
+                                className="form-control bg-transparent text-white fs-5 shadow"
                                 id="exampleInputPassword1"
                                 name="password"
                                 value={user.password || ""}
@@ -153,7 +153,7 @@ function Form() {
                             <input
                                 type="text"
                                 placeholder="Enter Phone Number"
-                                className="form-control bg-transparent text-white shadow"
+                                className="form-control bg-transparent text-white fs-5 shadow"
                                 id="exampleInputPhone"
                                 name="phone"
                                 value={user.phone || ""}
@@ -170,7 +170,7 @@ function Form() {
                                 <div className="form-check">
                                     <input
                                         type="checkbox"
-                                        className="form-check-input bg-transparent text-white shadow"
+                                        className="form-check-input bg-transparent text-white  fs-5 shadow"
                                         id="exampleInputHobby"
                                         name="hobby"
                                         value="dance"
@@ -184,7 +184,7 @@ function Form() {
                                 <div className="form-check ms-3">
                                     <input
                                         type="checkbox"
-                                        className="form-check-input bg-transparent text-white shadow"
+                                        className="form-check-input bg-transparent text-white fs-5 shadow"
                                         id="exampleInputDance"
                                         name="hobby"
                                         value="reading"
@@ -207,7 +207,7 @@ function Form() {
                                 <div className="form-check">
                                     <input
                                         type="radio"
-                                        className="form-check-input bg-transparent text-white shadow"
+                                        className="form-check-input bg-transparent text-white fs-5 shadow"
                                         id="exampleInputMale"
                                         name="gender"
                                         value="male"
@@ -221,7 +221,7 @@ function Form() {
                                 <div className="form-check ms-3">
                                     <input
                                         type="radio"
-                                        className="form-check-input bg-transparent text-white shadow"
+                                        className="form-check-input bg-transparent text-white fs-5 shadow"
                                         id="exampleInputFemale"
                                         name="gender"
                                         value="female"
@@ -242,7 +242,7 @@ function Form() {
                             </label>
                             <textarea
                                 placeholder="Address"
-                                className="form-control bg-transparent text-white shadow"
+                                className="form-control bg-transparent text-white fs-5 shadow"
                                 id="exampleInputAddress"
                                 name="address"
                                 value={user.address || ""}
@@ -259,7 +259,7 @@ function Form() {
                                 name="city"
                                 id="exampleInputCity"
                                 defaultValue=""
-                                className="form-select bg-transparent text-white shadow"
+                                className="form-select bg-transparent text-white fs-5 shadow"
                                 onChange={handleChange}
                             >
                                 <option disabled selected value="">
