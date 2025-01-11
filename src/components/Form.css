@@ -1,0 +1,26 @@
+body {
+  background: radial-gradient(circle, rgba(179,179,179,1) 9%, rgba(0,0,0,1) 93%);
+}
+
+input[type="text"]::placeholder,
+  input[type="password"]::placeholder,
+  input[type="email"]::placeholder,
+  textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7) !important; /* Placeholder color (semi-transparent white) */
+  }
+
+select option {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white !important;                        /* Text color */
+}
+select option[value=""][disabled] {
+  color: rgba(255, 255, 255, 0.7) !important; /* Semi-transparent white for the placeholder */
+}
+
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table{
+  border-radius: 12px;
+}
